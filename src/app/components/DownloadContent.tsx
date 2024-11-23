@@ -54,7 +54,7 @@ export default function DownloadContent() {
             <ArrowRight className="w-4 h-4" />
             <a
               className="hover:underline"
-              href="#"
+              href="/Markintosh.zip"
             >
               Download
             </a>

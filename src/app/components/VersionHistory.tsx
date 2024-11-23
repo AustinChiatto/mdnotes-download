@@ -7,7 +7,8 @@ export default function VersionHistory() {
       changes: [
         'Fixed issue where moving to a new line did not clear the trigger',
         'Updated app name from MdNotes to Markintosh',
-        'Enabled app to run on older version of macOS (11+)'
+        'Enabled app to run on older versions of macOS (11.5+)',
+        'Removed redundant secondary permissions alert'
       ]
     },
     {

@@ -41,7 +41,7 @@ export default function NotesClient({ initialNotes }: NotesClientProps) {
             <Folder className="w-4 h-4 mr-2 text-[#FFCC00]" />
             <a
               className="text-[#ebebf5]"
-              href="https://github.com/AustinChiatto"
+              href="https://github.com/AustinChiatto/Markintosh"
             >
               Source Code
             </a>

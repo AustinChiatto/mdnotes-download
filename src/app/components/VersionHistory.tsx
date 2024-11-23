@@ -29,7 +29,7 @@ export default function VersionHistory() {
       <p className="text-[#98989F]">
         Less notable changes can be found in the{' '}
         <a
-          href="#"
+          href="https://github.com/AustinChiatto/Markintosh"
           className="hover:underline"
         >
           Markintosh repo

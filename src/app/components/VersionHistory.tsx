@@ -5,8 +5,8 @@ export default function VersionHistory() {
     {
       number: '1.0.1',
       changes: [
-        'Fixed issue where moving to a new line did not clear the trigger',
-        'Updated app name from MdNotes to Markintosh',
+        'Fixed an issue where moving to a new line did not clear the trigger',
+        'Changed application name from MdNotes to Markintosh',
         'Enabled app to run on older versions of macOS (11.5+)',
         'Removed redundant secondary permissions alert'
       ]
@@ -14,12 +14,12 @@ export default function VersionHistory() {
     {
       number: '1.0',
       changes: [
-        'Added heading triggers',
-        'Added checklist trigger',
+        'Added trigger for heading styles',
+        'Added trigger to create a checklist item',
         'Added trigger for monostyled blocks',
         'Added block quote trigger',
-        'Added menubar icon',
-        'Added app icon'
+        'Added menubar icon, which allows user to quit the application',
+        'Added custom app icon'
       ]
     }
   ];

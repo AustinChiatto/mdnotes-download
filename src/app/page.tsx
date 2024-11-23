@@ -14,10 +14,10 @@ export default function Home() {
     {
       id: 1,
       title: 'Markintosh for Apple Notes',
-      desc: "Markdown formatting in Apple Notes isn't possible. This app changes that.",
+      desc: 'Markdown formatting in Apple Notes with one app.',
       content: <DownloadContent />
     },
-    { id: 2, title: 'Version History', desc: 'Changlog', content: <VersionHistory /> }
+    { id: 2, title: 'Version History', desc: 'Enabled app to run on older versions of macOS (11.5+)', content: <VersionHistory /> }
   ];
 
   return <NotesClient initialNotes={notes} />;

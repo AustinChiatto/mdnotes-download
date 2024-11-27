@@ -3,6 +3,13 @@ import { ArrowRight } from 'lucide-react';
 export default function VersionHistory() {
   const versions = [
     {
+      number: '1.0.2',
+      changes: [
+        'Greatly increased reliability of markdown triggers',
+        'Added backspace detection so users can correct mistakes without having to delete the entire line.'
+      ]
+    },
+    {
       number: '1.0.1',
       changes: [
         'Fixed an issue where moving to a new line did not clear the trigger',
